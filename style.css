@@ -1,3 +1,12 @@
 body {
 background-color: hsl(60 50% 80%);
+  font-family: monospace;
+}
+
+.workInfo{
+  color: gray;
+}
+
+.workName{
+  font-style: bold;
 }
