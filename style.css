@@ -8,5 +8,7 @@ background-color: #C4A484;
   color: gray;
 }
 
+@media  (min-width: 1025px) {
 h1 { font-size: 7vw;}
-
+.workInfo {font-size: 1vw;}
+}
