@@ -1,1 +1,1 @@
-# co-gallery.github.io
+# Co-Gallery
