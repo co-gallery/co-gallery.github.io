@@ -8,6 +8,12 @@ background-color: #C4A484;
   color: slategrey;
 }
 
+img {
+  user-select: none;
+  -webkit-user-drag: none;
+  pointer-events: none;
+}
+
 @media (max-width: 768px){
 .container {
   display: grid;
