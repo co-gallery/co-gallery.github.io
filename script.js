@@ -3,9 +3,10 @@ const works = [
 ];
 
 /*
-container.innerHTML = jsonData.map(item => `
+container.innerHTML = works.map(item => `
   <div class="card">
-    <h2>${item.Name}</h2>
+    <img src=${item.Image}></img>
+    <p><strong>${item.Name}</strong></p>
     <p><${item.Author}</p>
     <p>${item.Country}</p>
     <p>${item.Date}</p>
