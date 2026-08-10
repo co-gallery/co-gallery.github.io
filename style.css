@@ -5,10 +5,58 @@ background-color: #C4A484;
 }
 
 .workInfo{
-  color: gray;
+  color: slategrey;
+}
+
+@media (max-width: 768px){
+.container {
+  display: grid;
+    grid-template-columns: 1fr;
+    gap: 2em;
+}
+img {
+  max-width: 80%;
+  height: auto;
+}
+.workName{
+font-weight: bolder;
+font-size: 5vw;
+}
+p {font-size: 4vw;}
+}
+
+@media (min-width: 767px) and (max-width: 1025px){
+.container {
+  display: grid;
+    grid-template-columns: 1fr;
+    gap: 4em;
+}
+img {
+  max-width: 70%;
+  height: auto;
+}
+.workName{
+font-weight: bolder;
+font-size: 3vw;
+}
+p {font-size: 2.5vw;}
 }
 
 @media  (min-width: 1025px) {
 h1 { font-size: 4vw;}
-p {font-size: 1vw;}
+h2 {font-size: 2vw;}
+p {font-size: 1.2vw;}
+.workName{
+font-weight: bolder;
+font-size: 1.7vw;
+}
+img {
+  max-width: 65%;
+  height: auto;
+}
+.container{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 4em;
+}
 }
