@@ -2,6 +2,10 @@ const works = [
 
 ];
 
+document.querySelectorAll('img').forEach(img => {
+  img.addEventListener('contextmenu', e => e.preventDefault());
+});
+
 const container = document.querySelector('.container');
 
 if (works.length != 0){
