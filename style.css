@@ -7,3 +7,7 @@ background-color: #C4A484;
 .workInfo{
   color: gray;
 }
+
+@media  (min-width: 1025px) {
+h1 { text-size: 4vw;}
+}
